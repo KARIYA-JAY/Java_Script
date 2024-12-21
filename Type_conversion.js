@@ -1,3 +1,5 @@
+
+"use strict" ;  // this is says working on letesy versions . 
 let age = "33" 
 
 console.log(typeof age)
@@ -40,5 +42,24 @@ console.log(2+3+"2") // 52
  
 // must remember above instruction 
 console.log(+true) // 1
+
+
+// //---------------------------comparision--------------------------
+
+// console.log(2 == 2)
+// console.log(2 >= 2)
+// console.log(2 <= 2)
+// console.log(2 != 2)
+
+console.log("jay" > 0 ) // false
+console.log("20"< 50) // true auto convert
+
+console.log(null >= 0) // true
+console.log(null == 0) // false
+console.log(null < 0) // false 
+console.log(undefined > 0) // in all case undefine is come false 
+
+// all are work diffrent == , < , > , (=== this also check data type) 
+
 
 
