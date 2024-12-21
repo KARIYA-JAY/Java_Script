@@ -20,3 +20,25 @@ console.log(numbertobolean)
 let strtoboolean  = Boolean (str) // false 
 console.log(strtoboolean)
 
+
+
+// -----------------------operations-----------------------
+
+let s = "jay" 
+let k = " kariya" 
+let o = 20
+
+let h = s+k 
+console.log(s + k )
+console.log(h)
+console.log(o + s )
+console.log(1 + "2") // 12
+console.log("1" + 2) // 12
+console.log("1" + "2")// 12
+console.log(1 + "2" + 3) //123
+console.log(2+3+"2") // 52
+ 
+// must remember above instruction 
+console.log(+true) // 1
+
+
