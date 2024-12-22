@@ -15,3 +15,6 @@ console.log(name.trim())
 
 console.log(name.replace('j','s').trim())
 
+
+console.log(name1+name)
+console.log(`with trim ${name1} without trim ${name} `)
