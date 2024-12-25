@@ -30,3 +30,17 @@ console.log(obj41)
 console.log(Object.keys(obj1))  // return onlu keys array
 console.log(Object.values(obj1)) // return only values in array
 console.log(Object.entries(obj1)) // return single arry of each pair
+
+
+// destructure the objects
+
+let new12= {
+    id:12,
+    name123:"jk"
+}
+
+console.log(new12.name)
+
+const {name123 : nm} = new12
+console.log(nm)//it gives as same as (new12.name)
+
