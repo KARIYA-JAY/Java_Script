@@ -44,3 +44,7 @@ console.log(new12.name)
 const {name123 : nm} = new12
 console.log(nm)//it gives as same as (new12.name)
 
+
+
+
+
