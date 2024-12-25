@@ -25,4 +25,28 @@ console.log(number)
 console.log(number.join()) // it create string of array 
 
 
+//------------------------------------------------------------------
+
+const myarray =  [0,1,2,3,4,5]
+
+console.log(number.concat(myarray)) // it concate two array
+
+console.log(...number,...myarray) // it also concate using spred operator (...)
+
+let new1 = [123,12,45,[12,89,65,87,12,[78,56]],23,45]
+
+console.log(new1.flat(Infinity)) // it will do concate all the sub array in main array
+
+console.log(Array.isArray("jay")) // it checks hites name array is in code or not
+console.log(Array.from("jay")) // it create a array element of jay
+console.log(Array.from({name :"jay"})) // it can't make direcctly array it have must argument kesy array index array or etc
+
+let namr= "jay"
+let age = 20
+let marrid = false
+
+console.log(Array.of(namr,age,marrid)) //it makes arrayy of variables
+
+
+
 
