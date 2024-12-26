@@ -9,3 +9,4 @@ console.log(name("ajay"))
 
 let age = (age1) => age1+1
 console.log(age(20)) 
+
