@@ -1,6 +1,7 @@
 
 "use strict" ;  // this is says working on letesy versions . 
-let age = "33" 
+let age = "33"
+
 
 console.log(typeof age)
 
