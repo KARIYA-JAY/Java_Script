@@ -28,7 +28,7 @@ for (const element in obj) {
 }
 
 for (const key in arr) {
-    console.log(arr[key])
+    console.log(key)
 }
 //----------------------------------------------------
 
