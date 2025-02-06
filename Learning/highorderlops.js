@@ -34,3 +34,10 @@ for (const key in arr) {
 
 // for each 
 
+arr.forEach(function (i){
+    console.log(" for each ",i)
+})
+
+arr.forEach((j)=>{
+    console.log(j)
+})
