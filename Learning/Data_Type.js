@@ -26,8 +26,8 @@ console.log(typeof null) // null has object type not a special type like undefin
 
 let user = {
     name:"jay",
-    id:"123@gmail.com" ,
-    age: 20,
+    id:"1232@gmail.com" ,
+    age: 0,
 }
 let useerr = user 
 

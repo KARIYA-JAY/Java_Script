@@ -13,7 +13,7 @@ const s = [20, 45];
 const maxValue = Math.max(...s);
 console.log(maxValue); // Output: 45
 console.log(Math.max(45 ,8,9,999))
-console.log(Math.min(s))
+console.log(Math.min(...s))
 
 
 console.log(Math.random().toFixed(3)) // give a random number between 0 to 1 

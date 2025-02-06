@@ -3,8 +3,6 @@
 
 // syntax ()(),
 
-
-
 (function jk(ok)  {
     console.log(`hi my name is ${ok}`);
 })("jay");
