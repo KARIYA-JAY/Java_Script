@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM LEARNING</title>
+
+   
+
+</head>
+<body>
+<div class="navber">hoo
+    <h1 id="h1" class="new">hi</h1>
+    <h1 style="background-color: red;" class="new1">hello</h1>
+    <h1>by</h1>
+</div>
+    <p>hi my name is jay </p>
+   
+    <script>
+        // document.getElementById('h1').style.backgroundColor = "red"
+        // document.querySelector('h1').style.backgroundColor = "red" // it selects first h1 tag 
+        // document.querySelector('.new').innerText = "jay" 
+
+        document.querySelectorAll('h1')[1].innerHTML="1"
+        const list0 = document.querySelectorAll('h1')
+        list0[2].style.color = "blue"
+
+       </script>
+</body>
+</html>
