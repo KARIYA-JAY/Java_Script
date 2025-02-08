@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Element create </title>
+</head>
+<body>
+    <div class="parent">
+        <h1 class="child">this is 1</h1>
+        <h1 class="child">this is 2</h1>
+        <h1 class="child">this is 3</h1>
+    </div>
+
+</body>
+<script>
+   const one = document.querySelector(".parent")
+   const firstid= document.querySelectorAll(".child")
+//    const new3 = one.lastChild.innerHTML="this is 3"
+   console.log(one.lastChild.innerHTML)
+
+   for (let i = 0; i < one.children.length; i++) {
+    //console.log(parent.firstChild.innerHTML)
+   }
+
+  const ulist = document.createElement("ul")
+  const lilist = document.createElement("li")
+  const lilist2 = document.createElement("li")
+  
+  lilist.textContent = "hb"
+  lilist2.textContent = "NO"
+  ulist.appendChild(lilist)
+  ulist.appendChild(lilist2)
+  document.body.appendChild(ulist)
+    
+</script>
+</html>
