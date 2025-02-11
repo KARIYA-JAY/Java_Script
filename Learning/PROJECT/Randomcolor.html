@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Out methods</title>
+</head>
+<body>
+    <h1 class="text">nooooooo it's not easy </h1>
+    <button id="start">start</button>
+    <button id="stop">stop</button>
+</body>
+<script>
+//     const text = document.querySelector(".text")
+//    const stop = document.querySelector(".stop")
+
+ //  ---------------------------time out -----------------
+
+//    const motivation = function(){
+//     text.innerHTML=" it's  toooo easy."
+//    }
+
+//    let stopmethod = setTimeout(motivation,2000)
+//    stop.addEventListener('click',() => {
+//     clearTimeout(stopmethod)
+//     console.log("method is stoped")
+//    })
+
+// ------------------------------interval-------------------------
+function randomColor(){ 
+
+    const hex = '0123456789ABCDEF'; 
+    let color = '#';
+    for(let i=0; i<6 ;i++){
+        color += hex[Math.floor(Math.random()*16)]
+        console.log(color)
+    }
+    return color;
+}
+
+let InervalId; 
+function changeColor(){
+    InervalId = setInterval(()=>{
+        document.body.style.backgroundColor = randomColor(); 
+ 
+    },1000); 
+}
+
+const start = document.querySelector("#start"); 
+start.addEventListener("click",changeColor); 
+
+const stop = document.querySelector("#stop"); 
+stop.addEventListener("click",()=>{
+    clearInterval(InervalId); 
+} )
+
+
+</script>
+</html>
