@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API CALL</title>
+</head>
+<body>
+    <h1 class="new"></h1>
+</body>
+<script>
+    const req = new XMLHttpRequest();
+   const url ="https://randomuser.me/api/"
+    req.open('GET',url)
+    
+    req.onreadystatechange = function(){
+        if(req.readyState === 4){
+        const data = JSON.parse(this.responseText)
+        document.querySelector(".new").innerHTML = data.results[0].name.first
+        }
+    }
+    req.send();
+</script>
+</html>
