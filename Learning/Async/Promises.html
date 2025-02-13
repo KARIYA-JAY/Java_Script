@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promises</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // const p1 = new Promise((resolve,reject)=>{
+    //     setTimeout(()=>{
+    //         console.log("Time out ")
+    //         resolve()
+    //     },2000)
+    // },)
+    // p1.then(()=>{
+    //     console.log("Promses called")
+    // })
+
+//--------------------------------------------------------------------------------------------
+
+    // const p2 = new Promise((resolve,reject)=>{
+    //     setTimeout(()=>{
+    //         let i = 2
+    //         if(i==2){
+    //             console.log("promisise resolved")
+    //             resolve({name : "jay" , age : "20"})
+    //         }
+    //         else{
+    //             reject('Error Occurinng ')
+    //         }
+        
+    //     },3000)
+    // },)
+    // p2.then((new1)=>{
+    //     console.log(new1)
+    //     return new1
+    // }).then((new1)=>{
+    //     console.log(new1.name)
+    // }).catch((err)=>{
+    //     console.log(err);
+    // }).finally(()=>{
+    //     console.log("east or weast i am always call")
+    // })
+
+    //---------------------------------------------------------------------------------------
+
+//    const p3 = new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//             let i = 2
+//             if(i==2){
+                
+//                 resolve({name : "jay" , age : "20"})
+//             }
+//             else{
+//                 reject('Error Occurinng ')
+//             }
+//         },3000)
+
+//    })
+//    async function p3dolve(user){
+//     try {
+//         const response = await p3
+//         console.log(response)
+//     } catch (error) {
+//         console.log(error)
+//     }
+   
+//    }
+//    p3dolve() 
+
+
+   //---------------------------------------------------------------------------------------------
+
+
+//    async function apicall(){
+//         try {
+//             const re = await fetch("https://randomuser.me/api/")
+//             const data = await re.json()
+//             console.log(data)
+//         } catch (error) {
+//             console.log(error);
+//         }  
+//    }
+// apicall()
+
+//-----------------------------------------------------------------------------------------
+
+
+  fetch("https://randomuser.me/api/")
+.then((data)=>{
+   return data.json()
+})
+.then((data1)=>{
+    console.log(data1);
+}).catch(()=>{
+    console
+    .log("edrtfgyhujikolokjhgfdesrdtfgyuhjiokoihuygfdxfcgvhbjklkjhgvcfdxfcgvhbjnkmlrdfghjklkjhgfcdxfcgvhbjnkmkbhvgcfxdcgvhb")
+})
+</script>
+</html>
