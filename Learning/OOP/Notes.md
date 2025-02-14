@@ -7,7 +7,7 @@ OOP is one type of programming paradime that define the structure or style that 
 ## object
 
 It is collection of methods and properties.
-
+all the property in js is one type of object
 ### parts of oop
 - Constructor 
     - new ( function / keyword )
@@ -20,7 +20,8 @@ It is collection of methods and properties.
 ### 4 pillars of OOP
 
 - Abstraction 
-- Inheratance
+- Inheratance 
+    - in js (_ _ proto _ _) key word is use for inherit parent or any object. now new js has method that direct inherit SetPrototypeOf(obj,obj).
 - Encaptulation
 - Polymorphism 
 
