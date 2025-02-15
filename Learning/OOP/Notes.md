@@ -25,3 +25,7 @@ all the property in js is one type of object
 - Encaptulation
 - Polymorphism 
 
+# Lexical scope
+  if two nested function is define then inner function is access all the property of outer function.
+
+
