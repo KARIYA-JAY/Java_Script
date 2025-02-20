@@ -1,0 +1,16 @@
+.parent{
+  top: 0%;
+  left: 0%;
+  position: absolute;
+  width: 100%;
+  display: grid;
+  height: 100%;
+}
+
+.parent button{
+  height: fit-content;
+  width: 70px;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 8px;
+}
